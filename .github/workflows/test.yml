@@ -28,6 +28,7 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '17'
+          cache: maven
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
